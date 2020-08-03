@@ -35,4 +35,4 @@ if __name__ == "__main__":
         if i.endswith('JPG') or i.endswith('jpg'):
             frames.append(parseJPG(opt, i))
     print(len(frames))
-    frames[0].save(os.path.join(opt.output_path, 'out.gif'), save_all=True, append_images=frames[1:])
+    frames[0].save(os.path.join(opt.output_path, 'out.gif'), save_all=True, append_images=frames[1:100])
