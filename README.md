@@ -1,6 +1,8 @@
 # Intro
 This repo is for generating QQ yellow faces using DCGAN.
 
+For more information, you can see [here](https://beiyuouo.github.io/blog/project-dcgan-for-qq-yellow-faces/)
+
 # How to run
 1. `python run.py --epoch=10 --lr=0.0002 --grid_w=16 --grid_h=4`
 `grid_w` and `grid_h` is for result showing.
